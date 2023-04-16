@@ -1,3 +1,16 @@
+INI ADALAH PROJECT LELANG BERBASIS WEBSITE DENGAN VERSI LARAVEL 8+
+
+UNTUK DATABASE TIDAK MENGGUNAKAN MIGRATION JADI KALIAN HARUS IMPORT, KARNA INI SAYA BUAT SECARA PRIBADI BUKAN TEAM.
+
+~ SELAMAT MENIKMATI ~
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
