@@ -81,6 +81,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="container-fluid pt-5 ">
             <h3 class="fst-italic fw-bold bg-danger badge">=# SEDANG DI LELANG #=</h3>
             <div class="row text-center">

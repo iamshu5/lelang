@@ -60,7 +60,7 @@
     </div>
 </div>
 <hr>
-<span class="text-white bg-info badge-pill shadow-sm">Barang dilelang</span>
+<span class="text-white bg-danger font-weight-bold badge-pill shadow-sm"># BARANG DILELANG</span>
     <div class="row text-center">
         @php $no=1; @endphp
         @foreach ( $lelang as $index => $data)

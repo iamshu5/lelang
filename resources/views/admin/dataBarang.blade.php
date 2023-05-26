@@ -60,14 +60,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @if (count($barang)==0)
-                                <tr>
-                                    <td colspan="10" class="text-center bg-gradient-danger text-white">
-                                        Tidak ada data.
-                                    </td>
-                                </tr>
-                                @endif
-
                                 @foreach ($barang as $index => $data)
                                 <tr>
                                     <td>{{ $index + $barang->firstItem() }}</td>
