@@ -61,7 +61,10 @@
 </div>
 <hr>
 <span class="text-white bg-danger font-weight-bold badge-pill shadow-sm"># BARANG DILELANG</span>
-    <div class="row text-center">
+    <div class="row text-center justify-content-center">
+        @if (count($lelang)==0)
+            <span class="text-danger mt-3">Tidak ada data dilelang</span>
+        @endif
         @php $no=1; @endphp
         @foreach ( $lelang as $index => $data)
         @if ($data->status == 'Dibuka')

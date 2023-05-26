@@ -49,6 +49,10 @@
         </div>        
     @endif
     <div class="row justify-content-around text-center">
+        @if (count($lelang)==0)
+            <span class="text-danger mt-3">Tidak ada data dilelang</span>
+        @endif
+        
         @foreach ( $lelang as $index => $data)
             @if ($data->status == 'Dibuka')
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">

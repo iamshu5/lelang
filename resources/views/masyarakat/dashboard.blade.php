@@ -2,13 +2,15 @@
 
 <section id="dahsboard-masyarakat">
     <div class="container-fluid">
-        <span class="text-white bg-danger badge-pill shadow-sm mt-2">Sedang dilelang</span>
+        <span class="text-white bg-danger badge-pill shadow-sm mt-2"># Sedang di Lelang</span>
         <br>
         {{-- $tb_lelang dari MasyarakatController --}}
-        @if (count($tb_lelang)==0)
-            <span class="text-danger text-center">Tidak ada data dilelang</span>
-        @endif
-        <div class="row text-center">
+        <div class="row text-center text-center justify-content-center">
+
+            @if (count($tb_lelang)==0)
+                <span class="text-danger text-center font-weight-bold mt-5">- TIDAK ADA BARANG YANG DILELANG -</span>
+            @endif
+
             @foreach ($tb_lelang as $index => $data)
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="card shadow-sm mt-3 bg-warning text-black">
