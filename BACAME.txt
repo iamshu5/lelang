@@ -1,17 +1,3 @@
-Yang kurang diantaranya:
-✔ X
-PETUGAS: 
-- Belum bisa nambah data Lelang/Penawaran ✔
-- Belum bisa melihat history 
-- Belum bisa membuka/menutup Status Lelang/Penawaran ✔
-- Belum bisa menentukan waktu tutup otomatis melelang ✔
-- Belum bisa menentukan pemenang penawar ✔
-- Belum bisa mencari waktu X
-
-MASYARAKAT: 
-- Harus di sort berdasarkan id di halamn history lelang ✔
-- 
-
 AUTH: 
 PETUGAS
 - Uss: admin
