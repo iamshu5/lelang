@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 16, 2023 at 10:05 AM
+-- Generation Time: Nov 03, 2023 at 02:53 AM
 -- Server version: 5.7.33
--- PHP Version: 7.4.19
+-- PHP Version: 8.1.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -104,8 +104,7 @@ CREATE TABLE `masyarakat` (
 --
 
 INSERT INTO `masyarakat` (`id_masyarakat`, `nama_masyarakat`, `username`, `password`, `telp`) VALUES
-(1, 'Masyarakat 1', 'masyarakat1', '$2a$12$N2aLcxsfO2cCirfPFsIt6.M3naBmg.IvfMkeYM.NbTlNSqF5dB5FK', 865562),
-(2, 'masyarakat 2', 'masyarakat2', '$2y$10$2eOpLqDSDaoXtiixNGMhCOen384pTi7UM8iO5ro6RSnJ8iAa5gD1.', 67897);
+(1, 'Masyarakat 1', 'masyarakat1', '$2a$12$N2aLcxsfO2cCirfPFsIt6.M3naBmg.IvfMkeYM.NbTlNSqF5dB5FK', 865562);
 
 -- --------------------------------------------------------
 
@@ -126,8 +125,8 @@ CREATE TABLE `petugas` (
 --
 
 INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `username`, `password`, `id_level`) VALUES
-(2, 'Admin 1', 'admin', '$2a$12$sM/cxP7JNpeVVQKbsuzNYuBxg95LwNS3n5BCMv5LaQtVy6k8KPObq', 1),
-(3, 'Petugas 1', 'petugas', '$2y$10$zst1baBQG4ia..iaYauYwuY1U3t5hOMCB2QXr39ca.XV/utM5jmIS', 2);
+(2, 'Admin 1', 'admin', '$2y$10$o69hHd39y2glaJ3KYVYih.PdWpPGKZWuF/lRIS/p6LvMtPvMHMvbu', 1),
+(3, 'Petugas 1', 'petugas', '$2y$10$KXjorv4vi12RWOeRPrCLX.Qxndpg74exHz/UXVRyYUaChk7ekJ/sG', 2);
 
 -- --------------------------------------------------------
 
@@ -213,13 +212,13 @@ ALTER TABLE `tb_lelang`
 -- AUTO_INCREMENT for table `barang`
 --
 ALTER TABLE `barang`
-  MODIFY `id_barang` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_barang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `history_lelang`
 --
 ALTER TABLE `history_lelang`
-  MODIFY `id_history` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_history` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `levels`
@@ -243,7 +242,7 @@ ALTER TABLE `petugas`
 -- AUTO_INCREMENT for table `tb_lelang`
 --
 ALTER TABLE `tb_lelang`
-  MODIFY `id_lelang` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_lelang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Constraints for dumped tables
